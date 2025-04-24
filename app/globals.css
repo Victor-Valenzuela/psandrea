@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reveal {
+    visibility: hidden;
+}
+
+.text-slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #1f1b1b;
+  }
+
+  .text-slider .swiper-pagination-bullet-active {
+    background: #7c3aed;
+  }
+
+
+
+
+
+
