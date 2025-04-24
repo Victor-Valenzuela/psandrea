@@ -85,7 +85,7 @@ export default function Home() {
               {/* Columna de imagen */}
               <div className="absolute bottom-0 right-0 w-4/6 md:w-1/2 h-3/6 md:h-full">
                 <Image
-                  src="/images/Inicio2.png"
+                  src="./images/Inicio2.png"
                   alt="Fondo"
                   fill
                   className="object-cover object-[-20%_center] md:object-center drop-shadow-[0_0_10px_rgba(0,0,0,1)]"
@@ -172,7 +172,7 @@ export default function Home() {
                     className="w-[100px] h-[100px] relative" // Mismo tamaño que tenías con lordicon
                   >
                     <Image
-                      src="/images/meet.gif" // Ajusta esta ruta al nombre de tu archivo
+                      src="./images/meet.gif" // Ajusta esta ruta al nombre de tu archivo
                       alt="Ansiedad y Crisis de Pánico"
                       fill
                       className="object-contain"
@@ -197,7 +197,7 @@ export default function Home() {
                     className="w-[100px] h-[100px] relative" // Mismo tamaño que tenías con lordicon
                   >
                     <Image
-                      src="/images/brain.gif" // Ajusta esta ruta al nombre de tu archivo
+                      src="./images/brain.gif" // Ajusta esta ruta al nombre de tu archivo
                       alt="Ansiedad y Crisis de Pánico"
                       fill
                       className="object-contain"
@@ -222,7 +222,7 @@ export default function Home() {
                     className="w-[100px] h-[100px] relative" // Mismo tamaño que tenías con lordicon
                   >
                     <Image
-                      src="/images/travel.gif" // Ajusta esta ruta al nombre de tu archivo
+                      src="./images/travel.gif" // Ajusta esta ruta al nombre de tu archivo
                       alt="Ansiedad y Crisis de Pánico"
                       fill
                       className="object-contain"
@@ -247,7 +247,7 @@ export default function Home() {
                     className="w-[200px] h-[100px] relative" // Mismo tamaño que tenías con lordicon
                   >
                     <Image
-                      src="/images/sexual2.gif" // Ajusta esta ruta al nombre de tu archivo
+                      src="./images/sexual2.gif" // Ajusta esta ruta al nombre de tu archivo
                       alt="Ansiedad y Crisis de Pánico"
                       fill
                       className="object-contain"

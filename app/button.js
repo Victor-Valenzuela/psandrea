@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
             className="fixed bottom-4 right-5 rounded-full transform transition-transform hover:scale-125"
         >
             <Image
-                src="/images/whatsap2.png"
+                src="./images/whatsap2.png"
                 alt="Logo Psicóloga"
                 width={60}
                 height={60}
