@@ -40,7 +40,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <a href="/" className="text-white">
                 <Image
-                  src="/images/andrea3.png"
+                  src="./images/andrea3.png"
                   alt="Logo Psicóloga"
                   width={350}
                   height={40}

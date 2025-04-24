@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth">
       <head>
-        <link rel="icon" href="/images/icono.png" />
+        <link rel="icon" href="./images/icono.png" />
         <title>Andrea Marcus | Psicóloga</title>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
       </head>
