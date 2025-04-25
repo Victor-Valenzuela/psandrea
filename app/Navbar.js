@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { NavbarElements, NavElementsMobile } from './NavbarElements';
+import Link from "next/link";
 
 export default function Navbar() {
   const [isClick, setIsClick] = useState(false);
@@ -38,16 +39,18 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="/" className="text-white">
-                <Image
-                  src="./images/andrea3.png"
-                  alt="Logo Psicóloga"
-                  width={350}
-                  height={40}
-                  priority={true}
-                  className="rounded-sm w-[250px] md:w-[320px]"
-                />
-              </a>
+              <Link href="/" className="text-white">
+                <span>
+                  <Image
+                    src="./images/andrea3.png"
+                    alt="Logo Psicóloga"
+                    width={350}
+                    height={40}
+                    priority={true}
+                    className="rounded-sm w-[250px] md:w-[320px]"
+                  />
+                </span>
+              </Link>
             </div>
           </div>
           <div className="hidden md:block">
